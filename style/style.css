@@ -9,5 +9,53 @@
 body {
   font-family: "Poppins", sans-serif;
   background-color: #f0f0f0;
-  max-width: 1000px;
+  width: 1100px;
+  margin: auto;
 }
+
+/*header start*/
+
+header {
+  margin: 20px 0;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.header-buttons {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.singUp-Btn {
+  padding: 10px 14px;
+  background: white;
+  border: 1px solid rgba(203, 213, 225, 1);
+  border-radius: 50px;
+  color: black;
+  cursor: pointer;
+}
+.logIn-Btn {
+  padding: 10px 14px;
+  background: rgba(79, 70, 229, 1);
+  color: white;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+}
+/*header end*/
