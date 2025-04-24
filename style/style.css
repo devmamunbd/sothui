@@ -371,6 +371,8 @@ nav ul li a {
 .testimonial-box {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  /* align-items: center;
+  align-content: center; */
   gap: 18px;
   margin-top: 4%;
   margin-bottom: 7%;
@@ -412,7 +414,7 @@ nav ul li a {
 /*testimonial section end*/
 
 /*office-location section start*/
-.ofiice-location {
+.office-location {
   padding: 10px 20px;
   margin: 60px 0;
 }
@@ -443,4 +445,117 @@ nav ul li a {
   font-weight: 400;
   font-size: 14px;
 }
+
 /*office-location section end*/
+
+/*advertise-section start*/
+.advertise-container {
+  /* margin: 60px 0; */
+  background: #eef2ff;
+}
+.advertise-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.advertise-text {
+  padding-left: 60px;
+}
+.advertise-text h2 {
+  font-weight: 700;
+  font-size: 2rem;
+  color: #1e293b;
+  margin-bottom: 14px;
+}
+.advertise-text p {
+  font-weight: 400;
+  font-size: 1rem;
+  color: #475569;
+  margin-bottom: 20px;
+}
+.advertise-text .learn-btn {
+  font-size: 16px;
+  font-weight: 400;
+  color: #4f46e5;
+  border: 1px solid #4f46e5;
+  padding: 12px 16px;
+  border-radius: 50px;
+  margin-right: 14px;
+  cursor: pointer;
+}
+.advertise-text .started-btn {
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+  background: #4f46e5;
+  padding: 12px 16px;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+}
+
+.advertise-image {
+  display: flex;
+  gap: 20px;
+}
+.advertise-image img:first-child {
+  margin-top: 50px;
+}
+.advertise-image img:last-child {
+  margin-bottom: 50px;
+}
+/*advertise-section end*/
+
+/*footer-section start*/
+footer {
+  padding: 10px 20px;
+  margin: 60px 0;
+}
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 40px;
+  margin-bottom: 20px;
+}
+.footer-content h3 {
+  font-weight: 600;
+  font-size: 16px;
+  color: #1e293b;
+  margin-bottom: 10px;
+}
+.footer-content ul li {
+  list-style: none;
+  font-size: 14px;
+  font-weight: 400;
+  color: #475569;
+  line-height: 24px;
+}
+.copyRight-section {
+  margin-top: 20px;
+  border-top: 1px solid #cbd5e1;
+}
+.copyRight-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.copyRight-text {
+  font-size: 12px;
+  color: #94a3b8;
+  font-weight: 400;
+}
+.copyRight-content img {
+  height: 40px;
+  width: auto;
+}
+.up-arrow {
+  background: white;
+  padding: 8px 12px;
+  border-radius: 50%;
+  border: 1px solid #cbd5e1;
+}
+/*footer-section end*/
