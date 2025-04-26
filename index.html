@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sothui - UI</title>
     <link
+      rel="shortcut icon"
+      href="./assets/image/Logomark.png"
+      type="image/x-icon"
+    />
+    <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
       integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
@@ -14,7 +19,7 @@
     <link rel="stylesheet" href="./style/style.css" />
   </head>
   <body>
-    <header>
+    <header class="wrapper">
       <div id="header-container">
         <div class="header-logo">
           <img src="./assets/image/Logomark.png" alt="logo" />
@@ -58,7 +63,7 @@
 
     <main>
       <!-- hero-section-start -->
-      <section class="hero-container wrapper">
+      <section class="hero-container">
         <div class="hero-content">
           <div class="common-sub-title">
             <p>Design System For GenZ</p>
@@ -80,7 +85,7 @@
           </div>
 
           <div class="hero-image">
-            <img src="./assets/image/bannerOne.png" alt="bannerImg" />
+            <img src="./assets/image/bannerOne.jpg" alt="bannerImg" />
 
             <div class="heroImg-Two">
               <img src="./assets/image/bannerTwo.png" alt="" />
@@ -109,7 +114,7 @@
       <!-- sponsorLogo-section-end -->
 
       <!-- features-section-start -->
-      <section class="features-container wrapper">
+      <section id="features" class="features-container wrapper">
         <div class="features-content">
           <p class="common-sub-title">Our Main Features</p>
           <h2 class="features-title">Our Primary Features</h2>
@@ -188,7 +193,7 @@
       <!-- features-section-end -->
 
       <!-- achieve-section-start -->
-      <section class="achieve-container">
+      <section id="achivement" class="achieve-container">
         <div class="achieve-content">
           <i class="fa-solid fa-house house-icon"></i>
           <h2 class="achieve-title">
@@ -267,7 +272,7 @@
       <!-- procrastinators-section-end -->
 
       <!-- testimonial section star -->
-      <section class="testimonial-container wrapper">
+      <section id="testimonial" class="testimonial-container wrapper">
         <div class="testimonial-content">
           <p class="testimonial">Testimonial</p>
           <h2 class="testimonial-title">What People Say</h2>
@@ -486,6 +491,9 @@
             </div>
           </div>
         </div>
+        <div class="load-btn">
+          <button id="loadMore" class="loadMore-btn">Load More</button>
+        </div>
       </section>
 
       <!-- testimonial section end -->
@@ -533,7 +541,7 @@
       <!-- Office-Location-section-end -->
 
       <!-- according-section-start -->
-      <section class="according-container wrapper">
+      <section id="faq" class="according-container wrapper">
         <div class="faq-content">
           <p>FAQ</p>
           <h2>Frequently Asked Questions</h2>

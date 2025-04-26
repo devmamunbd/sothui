@@ -32,3 +32,20 @@ faqs.forEach((faq) => {
     title.classList.toggle("active");
   });
 });
+
+// according load more button
+const moreBtn = document.getElementById("loadMore");
+let currentItems = 3;
+moreBtn.addEventListener("click", () => {
+  let items = [
+    ...document.querySelectorAll(".testimonial-box .testimonial-box-content"),
+  ];
+  for (let i = currentItems; i < currentItems + 3; i++) {
+    items[i].style.display = "inline-block";
+  }
+  currentItems += 3;
+
+  if (currentItems >= items.length) {
+    moreBtn.style.display = "none";
+  }
+});
