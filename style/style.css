@@ -1031,14 +1031,14 @@ nav ul {
     border-radius: 20px;
     transform: rotate(-30deg);
     top: 80px;
-    left: -10px;
+    left: -30px;
   }
   .procras-right-box .MockImgTwo {
     width: 300px;
     height: 600px;
     position: absolute;
     transform: rotate(-30deg);
-    right: -100px;
+    right: -110px;
     bottom: 110px;
     border-radius: 10px;
   }
@@ -1072,14 +1072,14 @@ nav ul {
     border-radius: 20px;
     transform: rotate(-30deg);
     top: 40px;
-    left: 40px;
+    left: 100px;
   }
   .procras-right-box .MockImgTwo {
     width: 330px;
     height: 600px;
     position: absolute;
     transform: rotate(-30deg);
-    right: -90px;
+    right: -70px;
     bottom: 110px;
     border-radius: 10px;
   }
