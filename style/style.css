@@ -1038,7 +1038,7 @@ nav ul {
     height: 600px;
     position: absolute;
     transform: rotate(-30deg);
-    right: -70px;
+    right: -100px;
     bottom: 110px;
     border-radius: 10px;
   }
